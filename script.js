@@ -69,7 +69,7 @@ function render(){
 
     const deleteButton = document.createElement('button');
     deleteButton.innerText = 'X';
-    deleteButton.style = 'margin-left: 20px; width: 50px; height: 25px;';
+    deleteButton.style = 'width: 50px; height: 25px;';
     deleteButton.onclick = deleteTodo;
     deleteButton.classList.toggle('deleteBtn');
     deleteButton.id = todo.id;
@@ -77,7 +77,7 @@ function render(){
 
     const doneButton = document.createElement('button');
     doneButton.innerText = '✓';
-    doneButton.style = 'margin-left: 20px; width: 50px; height: 25px;';
+    doneButton.style = 'width: 50px; height: 25px;';
     doneButton.onclick = doneTodo;
     doneButton.classList.toggle('doneBtn');
     doneButton.id = todo.id;
