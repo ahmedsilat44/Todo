@@ -1,5 +1,5 @@
 # TO-DO App
-A simple CRUD application
+A Simple CRUD application
 
 ## The Layout
 An Input form  for todo name and date entry.
