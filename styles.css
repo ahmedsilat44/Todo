@@ -70,6 +70,28 @@ body{
 #todolist div {
     width: 100%;
 }
+#todolist input {
+    height: 30px;
+    width: 70;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#todolist .editBtn{
+    right: 10px;
+    color: white;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    border-radius: 2px;
+    margin-right: 0px;
+    padding-right: 0px;
+    position: absolute;
+    transition: .3s;
+}
+#edit-todo-title,
+#edi-date-picker {
+    margin: 0px 15px;
+}
 .input {
     background-color: rgb(245, 245, 245);
     border-radius: 50px;
@@ -111,7 +133,8 @@ body{
     right: 80px;
     transition: .3s;
 }
-.doneBtn:hover{
+.doneBtn:hover,
+.editBtn:hover{
     cursor: pointer;
     background-color: rgb(255, 136, 0);
     scale: 1.1;
